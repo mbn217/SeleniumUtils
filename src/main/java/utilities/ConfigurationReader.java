@@ -39,7 +39,7 @@ public class ConfigurationReader {
      * This method will return the value of the key that was passed as a parameter
      * from the property file
      * @param key the key from the property file
-     * @return
+     * @return the property of the key specified
      */
     public static String getProperty(String key){
         logger.info("Getting the property key {"+ key +"} from the property file");

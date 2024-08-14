@@ -110,7 +110,6 @@ public class SeleniumUtils {
     /**
      * This will get the results of the test cases and output the status to the extent report
      * We have PASS/FAIL/SKIPPED , in case of Failure a screenshot method will be called
-     * @Author Mo
      * @param result This is the result reference object that needs to be passed when method is called
      *               Its it more useful if its used in the @After method so we can capture the results of the
      *               Test case and log the pass/fail/skipped statuses
@@ -265,7 +264,6 @@ public class SeleniumUtils {
      * THis method will hover to an element using action class
      * @param driver instance of the browser
      * @param HovertoWebElement element we want to hover to
-     * @throws InterruptedException
      */
     public static void hoverWebelement(WebDriver driver ,WebElement HovertoWebElement) {
         logger.info("Hover to an element");
@@ -278,7 +276,6 @@ public class SeleniumUtils {
      * This method will double click an element using action class
      * @param driver instance of the browser
      * @param doubleclickonWebElement element we want to double click
-     * @throws InterruptedException
      */
     public static void doubleClickWebElement(WebDriver driver ,WebElement doubleclickonWebElement) {
         logger.info("double click on an element");
