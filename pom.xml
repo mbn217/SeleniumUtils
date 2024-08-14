@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mbn217</groupId>
-    <artifactId>SeleniumUtils</artifactId>
+    <artifactId>seleniumutils</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
