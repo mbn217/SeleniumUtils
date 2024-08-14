@@ -65,7 +65,7 @@ mvn clean install
 
 ## License
 This project is licensed under the MIT License.
-```
+
 #Todo
 - Add more utility methods for common Selenium tasks.
 - Add support for additional testing frameworks.
