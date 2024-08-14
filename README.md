@@ -46,6 +46,17 @@ import utilities.SeleniumUtils;
 // Assuming 'element' is a WebElement representing a dropdown
 SeleniumUtils.selectElementByIndex(element, 1);
 ```
+### ConfigurationReader
+Some methods require instantiating ConfigurationReader to 
+work with fields in properties files. Ensure you have properly configured your properties 
+file and instantiated ConfigurationReader as needed.
+```java
+import utilities.ConfigurationReader;
+
+// Example of instantiating ConfigurationReader
+ConfigurationReader configReader = new ConfigurationReader("path/to/your/properties/file.properties");
+String someValue = configReader.getProperty("someKey");
+```
 
 ## Dependencies
 The project relies on the following dependencies:
